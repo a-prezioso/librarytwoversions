@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Pc\Desktop\Alex\JAVA\Progetti\WebBiblioteca\.metadata\.plugins\org.eclipse.jdt.core
+2441227260.index
+1204385438.index
+3990948598.index

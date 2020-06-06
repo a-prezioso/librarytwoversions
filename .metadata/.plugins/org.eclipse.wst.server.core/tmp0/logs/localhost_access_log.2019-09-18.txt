@@ -1,0 +1,8 @@
+127.0.0.1 - - [18/Sep/2019:10:49:55 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:49:56 +0200] "GET /Biblioteca/CtrlMain HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:50:01 +0200] "POST /Biblioteca/CtrlMain HTTP/1.1" 200 1273
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:50:03 +0200] "POST /Biblioteca/CtrlArchivioProfessore HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:50:07 +0200] "POST /Biblioteca/CtrlMain HTTP/1.1" 200 1273
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:50:10 +0200] "POST /Biblioteca/CtrlArchivioProfessore HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:52:57 +0200] "GET /Biblioteca/CtrlMain HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [18/Sep/2019:10:53:13 +0200] "GET /Biblioteca/CtrlMain HTTP/1.1" 200 1801

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+
+<!--    db Localhost 	 -->
+		<property name="hibernate.connection.username">Cors6</property>
+		<property name="hibernate.connection.password">Cors6</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@teramo.digitalbusinessolution.com:1522:orcl</property>
+
+
+		<!-- configuration pool via c3p0-->
+		<property name="hibernate.c3p0.acquire_increment">1</property>
+		<property name="hibernate.c3p0.idle_test_period">100</property> <!-- seconds -->
+		<property name="hibernate.c3p0.max_size">10</property>
+		<property name="hibernate.c3p0.max_statements">10</property>
+		<property name="hibernate.c3p0.min_size">1</property>
+		<property name="hibernate.c3p0.timeout">100000</property> <!-- seconds -->
+
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.enable_lazy_load_no_trans">true</property>
+		
+<!--		********************* AUTO CREATE DB TABLES ********************************-->
+      <property name="hibernate.hbm2ddl.auto">update</property> 
+ 
+ 
+		<!-- MAPPING delle RISORSE  -->
+		<mapping class="model.session.Autore" /> 
+		<mapping class="model.session.CasaEditrice" />
+		<mapping class="model.session.Genere" />
+		<mapping class="model.session.Studente" />
+		<mapping class="model.session.Professore" />
+		<mapping class="model.session.Libro" />
+		<mapping class="model.session.Prestito" />
+		<mapping class="model.session.Prenotazione" />
+		<mapping class="model.session.RichiestaAcquisto" />
+		<mapping class="model.session.Copia" />
+				
+		
+
+	</session-factory>
+</hibernate-configuration>

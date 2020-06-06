@@ -1,0 +1,4 @@
+127.0.0.1 - - [16/Sep/2019:15:44:19 +0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:15:44:21 +0200] "GET /Biblioteca/CtrlMain HTTP/1.1" 200 1801
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:15:44:28 +0200] "POST /Biblioteca/CtrlMain HTTP/1.1" 200 1029
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:15:44:30 +0200] "POST /Biblioteca/CtrlArchivioGenere HTTP/1.1" 200 1801
